@@ -1,12 +1,13 @@
 import Head from "next/head";
 
 export default (props) => {
+  console.log(props);
   return (
     <div>
-      <Head>Top Page!</Head>
+      <Head>Second Page!</Head>
 
       <main>
-        <h1>Here is Top page</h1>
+        <h1>Hello</h1>
       </main>
     </div>
   );
